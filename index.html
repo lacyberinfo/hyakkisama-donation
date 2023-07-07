@@ -1,83 +1,108 @@
 <!DOCTYPE html>
 <html>
-
-
-  <!-- Code pour la soumission du site à Google -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-XXXXXXXX-X');
-  </script>
-
-
 <head>
-  <meta charset="UTF-8">
-  <title>Article de presse</title>
+  <title>Faites un Don</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
       background-color: #f2f2f2;
     }
-
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
     h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
       color: #333333;
       text-align: center;
-      text-transform: uppercase;
+      margin-bottom: 20px;
     }
-
+    
     p {
-      margin-bottom: 10px;
-      color: #555555;
+      color: #666666;
+      text-align: center;
     }
-
-    .author {
-      font-style: italic;
-      color: #777777;
-      text-align: right;
+    
+    .donate-button {
+      display: block;
+      max-width: 200px;
+      margin: 20px auto;
     }
-
-    .date {
+    
+    .highlight {
+      color: #FF0000;
       font-weight: bold;
-      color: #999999;
     }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #ffffff;
+    
+    .tribute-section {
+      background-color: #FFFFFF;
+      border-radius: 5px;
       padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .tribute-title {
+      color: #333333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .tribute-text {
+      color: #666666;
+      font-size: 18px;
+    }
+    
+    .tribute-image {
+      max-width: 300px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+
   <div class="container">
-    <h1>Les espaces clients SFR et la Banque de France sont confrontés à d'importantes cyberattaques</h1>
-    <p class="date">Date de publication : 17 juin 2023</p>
-    <p>
-        Aujourd'hui, les espaces clients de SFR et de la Banque de France ont été victimes de cyberattaques majeures par des cybercriminels se prénommant wD et Scarface ou Scarface2Discord, mettant en évidence les vulnérabilités auxquelles sont confrontées les entreprises et les institutions financières en matière de sécurité informatique. Ces attaques, d'une sophistication sans précédent, ont créé un émoi considérable dans le domaine de la cybersécurité, ont déterminé l'importance cruciale de la protection des données personnelles et financières.
-
-Les experts en cybersécurité ont qualifié ces attaques de "hautement sophistiquées", indiquant que les pirates ont utilisé des techniques avancées pour développer les systèmes. Les équipes de sécurité informatique de SFR et de la Banque de France, en collaboration avec les autorités compétentes, travaillent actuellement sur ces incidents afin d'enquêter sur leur origine et d'identifier les mesures à prendre pour renforcer la sécurité des systèmes.
-
-Dans le cas de SFR, les cybercriminels ont réussi à accéder aux informations sensibles concernant les clients, notamment leurs noms, adresses, numéros de téléphone et identifiants de connexion. SFR réagi rapidement en bloquant l'accès aux comptes compromis et en demandant à tous les utilisateurs de réinitialiser leur mot de passe. De plus, une cellule de crise a été mise en place pour gérer la situation et renforcer la sécurité des systèmes de l'entreprise.
-[01:26]
-Quant à la Banque de France, l'attaque visait principalement les données financières sensibles des clients. Les pirates ont pu accéder à certaines informations de compte, mais la Banque de France a assuré que les transactions financières n'avaient pas été compromises. Néanmoins, des mesures de sécurité supplémentaires ont été prises pour protéger les informations sensibles et rétablir la confiance des clients.
-
-Ces cyberattaques soulignent l'importance cruciale de la cybersécurité dans notre société de plus en plus connectée. Les entreprises et les institutions financières doivent mettre à jour leurs systèmes de sécurité pour faire face aux menaces émergentes et investir dans des technologies avancées de prévention et de détection des attaques.
-[01:26]
-Les autorités compétentes travaillent en étroite collaboration avec les équipes de sécurité informatique de SFR et de la Banque de France pour identifier les responsables de ces attaques et les traduire en justice. Il est essentiel que les coupables soient tenus pour responsables de leurs actes afin de dissuader d'autres attaques similaires à l'avenir.
-
-En attendant, il est fortement recommandé aux utilisateurs des espaces clients de SFR et aux clients de la Banque de France de changer immédiatement leurs mots de passe et de surveiller attentivement leurs comptes pour toute activité suspecte. Les personnes concernées par ces attaques potentielles doivent tout incident aux autorités compétentes et prendre les mesures nécessaires pour protéger leurs informations personnelles et financières.
-
-    </p>
-   
-    <p class="author">Auteur de l'article : Francis Poirer</p>
+    <h1>Faites un Don</h1>
+  
+    <p>Votre soutien est précieux pour notre cause.</p>
+  
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_donations">
+      <input type="hidden" name="business" value="ismaladen83@gmail.com">
+      <input type="hidden" name="currency_code" value="EUR">
+      <input class="donate-button" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="Faire un don avec PayPal">
+      <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    
+    <p>Merci pour votre soutien ! Chaque don compte pour nous.</p>
+    
+    <div class="tribute-section">
+      <h2 class="tribute-title">Hommage à Hyakkisama</h2>
+      <p class="tribute-text">Nous aimerions rendre hommage à hyakkisama, un chien courageux qui a perdu la vie pendant une émeute à Nanterre.</p>
+      <img class="tribute-image" src="https://cdn.discordapp.com/attachments/1123509391308640277/1126924812300865596/3de121ac-cc4d-8ab4-416b-39ef3de88d2a_min.png" alt="Nahel">
+      <p class="tribute-text">hyakkisama restera dans nos cœurs comme un symbole de force et de résilience.</p>
+    </div>
+    
+    <hr>
+    
+    <p>Pourquoi faire un don :</p>
+    
+    <ul>
+      <li>Contribuer à un projet/cause importante</li>
+      <li>Aider ceux qui en ont besoin</li>
+      <li>Faire une différence positive</li>
+    </ul>
+    
+    <hr>
+    
+    <p>À propos de notre organisation :</p>
+    
+    <p>Nous sommes une organisation à but non lucratif dédiée à l'indménisation des victimes des émeutes. Votre don nous aide à continuer notre travail et à réaliser notre objectif.</p>
   </div>
+
 </body>
 </html>
